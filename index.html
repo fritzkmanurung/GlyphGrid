@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Icon Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/tab.png">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="header">
+            <h1>Icon Collection</h1>
+            <p>Browse our premium collection of high-quality icons for your projects</p>
+        </div>
+        
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-input" placeholder="Search icons..." id="searchInput">
+        </div>
+        
+        <div class="filter-buttons" id="filterButtons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="social">Social</button>
+            <button class="filter-btn" data-filter="brand">Brand</button>
+            <button class="filter-btn" data-filter="ui">UI</button>
+            <button class="filter-btn" data-filter="media">Media</button>
+        </div>
+        
+        <div class="icon-grid" id="iconGrid">
+            <!-- Icons will be added by JavaScript -->
+        </div>
+    </div>
+    
+    <div class="modal" id="iconModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="Icon" class="modal-icon" id="modalIcon">
+            <h3 class="modal-title" id="modalTitle">Icon Name</h3>
+            <p class="modal-text" id="modalText">Icon description goes here</p>
+            <div class="download-options">
+                <button class="download-btn" data-format="png">
+                    <i class="fas fa-download"></i> PNG
+                </button>
+                <button class="download-btn" data-format="svg">
+                    <i class="fas fa-download"></i> SVG
+                </button>
+                <button class="download-btn" data-format="ai">
+                    <i class="fas fa-download"></i> AI
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Icon downloaded successfully!</span>
+    </div>
+    
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
