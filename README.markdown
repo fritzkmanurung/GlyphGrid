@@ -1,33 +1,41 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cee37c8b-3c9b-45c9-a630-dc041cad34cb/deploy-status)](https://app.netlify.com/projects/glyphgridweb/deploys)
 <div align="center">
-  <img src="assets/logo.png" alt="Iconic Logo" width="120">
-  <h1>Iconic: An Interactive Icon Gallery</h1>
+  <img src="assets/GlyphGrid.png" alt="GlyphGrid Logo" width="180">
+  <h1>GlyphGrid: An Interactive Icon Gallery</h1>
   <p>A beautiful, filterable, and searchable icon gallery with a clean, modern interface, built with pure HTML, CSS, and JavaScript.</p>
   
   <p>
     <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
-    <img src="https://img.shields.io/github/license/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="License">
-    <img src="https://img.shields.io/github/repo-size/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Repo Size">
-    <img src="https://img.shields.io/github/last-commit/[YOUR-USERNAME]/[YOUR-REPONAME]" alt="Last Commit">
-    <a href="https://github.com/[YOUR-USERNAME]/[YOUR-REPONAME]/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <img src="https://img.shields.io/github/license/fritzkmanurung/GlyphGrid" alt="License">
+    <img src="https://img.shields.io/github/repo-size/fritzkmanurung/GlyphGrid" alt="Repo Size">
+    <img src="https://img.shields.io/github/last-commit/fritzkmanurung/GlyphGrid" alt="Last Commit">
+    <a href="https://github.com/fritzkmanurung/GlyphGrid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+    <a href="https://glyphgridweb.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-Online-brightgreen" alt="Live Demo"></a>
   </p>
 </div>
 
 <p align="center">
+  <a href="#-live-demo"><strong>Live Demo</strong></a> ·
   <a href="#-preview"><strong>Preview</strong></a> ·
   <a href="#-features"><strong>Features</strong></a> ·
   <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-  <a href="#-usage"><strong>Usage</strong></a>
+  <a href="#-getting-started"><strong>Getting Started</strong></a>
 </p>
 
 ---
+
+## 🌐 Live Demo
+
+You can see the component live in your browser by visiting the deployment link:
+
+**https://glyphgridweb.netlify.app/**
 
 ## ✨ Preview
 
 Showcase a beautiful and functional gallery of icons that users can easily search, filter, and download.
 
 <div align="center">
-  <img src="assets/preview.png" alt="Iconic Gallery Preview">
+  <img src="assets/image.png" alt="GlyphGrid Gallery Preview">
 </div>
 
 ## 🌟 Key Features
@@ -54,16 +62,18 @@ This project is built from the ground up with core web technologies, ensuring it
 
 ## 🚀 Getting Started
 
-No complex installation or build process is required to use this component.
+No installation or complex setup is required to use this component.
 
-1.  **Clone or Download the Repository**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-REPONAME].git
-    ```
-    Alternatively, you can download the project files directly.
-
-2.  **Open in Your Browser**
-    Navigate to the project folder and open the `index.html` file in any modern web browser to see the gallery in action.
+1.  **Clone the Repository**
+    ````bash
+    git clone [https://github.com/fritzkmanurung/GlyphGrid.git](https://github.com/fritzkmanurung/GlyphGrid.git)
+    ````
+2.  **Navigate to the Directory**
+    ````bash
+    cd GlyphGrid
+    ````
+3.  **Open in Your Browser**
+    Simply open the `index.html` file in any modern web browser to see the gallery in action.
 
 ## 🛠️ Usage
 
